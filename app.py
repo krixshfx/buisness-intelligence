@@ -122,7 +122,7 @@ def generate_full_pdf_report_content(metrics, products_data):
 
 def generate_business_overview_stream(metrics, products_data):
     st.info("Generating business overview stream.")
-    yield "### Business Overview
+    yield "### Business Overview"
 "
     yield f"Current total weekly profit: **${metrics['totalWeeklyProfit']:.2f}**
 "
